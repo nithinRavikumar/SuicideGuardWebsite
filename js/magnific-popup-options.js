@@ -33,6 +33,15 @@ $(document).ready(function() {
       }
     });
   };
+
+  $(document).ready(function() {
+    $('.image-pop').magnificPopup({
+        type: 'inline',
+        midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you use inline popups.
+        closeBtnInside: true, // Display close button inside popup
+        mainClass: 'mfp-fade' // Adds a fade effect to the popup
+    });
+});
   
   // Call the functions 
   magnifPopup();
